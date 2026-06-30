@@ -1,0 +1,15 @@
+CodexMeter - 未签名本地版
+
+安装：
+1. 将 CodexMeter 拖到 Applications 文件夹。
+2. 第一次打开时，如果 macOS 提示无法验证开发者：
+   - 在 Finder 中右键点击 CodexMeter，选择“打开”；
+   - 或到“系统设置 > 隐私与安全性”中允许打开。
+
+使用条件：
+- 本机需要已经登录过 Codex，并存在 ~/.codex/auth.json。
+- 应用会读取 ~/.codex/auth.json 中的 tokens.access_token 请求 ChatGPT 后端额度接口。
+- 应用不会在界面中展示 access_token、refresh_token、cookie 或完整唯一 ID。
+
+退出：
+- 右键菜单栏图标，选择“退出”。

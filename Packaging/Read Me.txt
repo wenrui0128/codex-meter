@@ -1,0 +1,15 @@
+CodexMeter - unsigned local build
+
+Install:
+1. Drag CodexMeter to the Applications folder.
+2. On first launch, if macOS says the developer cannot be verified:
+   - Right-click CodexMeter in Finder and choose Open;
+   - or allow it in System Settings > Privacy & Security.
+
+Requirements:
+- Codex must already be signed in on this Mac, with ~/.codex/auth.json present.
+- The app reads tokens.access_token from ~/.codex/auth.json to request ChatGPT quota endpoints.
+- The app does not show access tokens, refresh tokens, cookies, or complete unique IDs in the UI.
+
+Quit:
+- Right-click the menu bar icon and choose Quit.
