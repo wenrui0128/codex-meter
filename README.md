@@ -37,7 +37,3 @@ bash scripts/package_dmg.sh
 ```bash
 ICON_SOURCE="/path/to/icon.png" bash scripts/package_dmg.sh
 ```
-
-## 设计说明
-
-macOS 没有开放和 iPhone Dynamic Island 完全等价的系统 API。这个版本放弃常驻浮窗，改成更适合 macOS 的菜单栏体验：安静、可预期、不遮挡内容。应用不会在界面或日志里展示 access token、refresh token、cookie 或完整唯一 ID。
